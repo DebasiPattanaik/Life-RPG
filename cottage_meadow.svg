@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <defs>
+    <linearGradient id="skyGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#9BCBE0"/>
+      <stop offset="60%" stop-color="#D7E9EE"/>
+      <stop offset="100%" stop-color="#F7EDE1"/>
+    </linearGradient>
+    <linearGradient id="hill1" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#8DB87E"/>
+      <stop offset="100%" stop-color="#608F50"/>
+    </linearGradient>
+    <linearGradient id="hill2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#73A365"/>
+      <stop offset="100%" stop-color="#4C783E"/>
+    </linearGradient>
+    <linearGradient id="sunbeam" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF8E7" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#FFF8E7" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="timber" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#6E4A28"/>
+      <stop offset="50%" stop-color="#8A6038"/>
+      <stop offset="100%" stop-color="#54371C"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Sky -->
+  <rect width="800" height="600" fill="url(#skyGrad)"/>
+
+  <!-- Fluffy Ghibli Clouds -->
+  <path d="M 60 140 Q 90 90 140 110 Q 180 80 220 120 Q 260 110 280 140 Q 200 170 60 140 Z" fill="#FFFFFF" opacity="0.85"/>
+  <path d="M 450 160 Q 480 110 530 130 Q 570 95 620 135 Q 670 120 700 160 Q 600 190 450 160 Z" fill="#FFFFFF" opacity="0.8"/>
+
+  <!-- Distant Blue Hills -->
+  <path d="M 0 320 Q 200 240 420 300 Q 640 230 800 290 L 800 600 L 0 600 Z" fill="#A4C2BC" opacity="0.7"/>
+
+  <!-- Rolling Green Countryside Hills -->
+  <path d="M 0 350 Q 240 270 500 340 Q 680 300 800 340 L 800 600 L 0 600 Z" fill="url(#hill1)"/>
+  <path d="M 0 410 Q 180 340 440 390 Q 660 330 800 380 L 800 600 L 0 600 Z" fill="url(#hill2)"/>
+
+  <!-- Wildflowers in meadow -->
+  <circle cx="120" cy="480" r="4" fill="#FFEDB3"/>
+  <circle cx="210" cy="495" r="4" fill="#FCA5A5"/>
+  <circle cx="340" cy="470" r="5" fill="#FFFFFF"/>
+  <circle cx="490" cy="510" r="4" fill="#FFEDB3"/>
+  <circle cx="680" cy="485" r="5" fill="#FCA5A5"/>
+
+  <!-- Cottage Timber Window Arch Frame -->
+  <rect x="0" y="0" width="800" height="40" fill="url(#timber)"/>
+  <rect x="0" y="0" width="40" height="600" fill="url(#timber)"/>
+  <rect x="760" y="0" width="40" height="600" fill="url(#timber)"/>
+  <rect x="0" y="530" width="800" height="70" fill="url(#timber)"/>
+
+  <!-- Window Sill Timber Panes -->
+  <rect x="390" y="40" width="20" height="490" fill="url(#timber)"/>
+  <rect x="40" y="270" width="720" height="18" fill="url(#timber)"/>
+
+  <!-- Warm Sunbeam Angle -->
+  <polygon points="40,40 380,40 800,530 460,530" fill="url(#sunbeam)"/>
+
+  <!-- Ivy Vine Clinging to Window -->
+  <path d="M 40 40 Q 70 80 50 140 Q 80 180 48 240" stroke="#4C783E" stroke-width="4" fill="none"/>
+  <ellipse cx="60" cy="80" rx="8" ry="5" fill="#608F50" transform="rotate(20 60 80)"/>
+  <ellipse cx="48" cy="115" rx="8" ry="5" fill="#73A365" transform="rotate(-15 48 115)"/>
+  <ellipse cx="68" cy="155" rx="9" ry="6" fill="#608F50" transform="rotate(35 68 155)"/>
+  <ellipse cx="50" cy="190" rx="8" ry="5" fill="#73A365" transform="rotate(-25 50 190)"/>
+</svg>
